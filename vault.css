@@ -151,7 +151,7 @@ background-color:white ;
 }
 .light{
     margin:120px;
-    display:flex;gap:6px;
+    display:flex;gap:60px;
 }
 .yellow{
     width:600px;height:600px;
@@ -177,7 +177,51 @@ font-size: 16px;
     font-size: 16px;
     font-weight: 500;
     color:#469165;
+}
+.again button{ 
+    background-color: #30B868; 
+    color: #FFFFFF; 
+    display: flex; 
+    align-items: center;
+    justify-content: center; border-radius: 4px; padding:12px 16px; 
+    cursor: pointer; 
+    
 
 }
+.again{
+   margin:2px 120px 120px 120px;
+   padding:80px 40px;
+   align-content: center;
+   justify-content: center;
+   text-align:center;
+}
+.again h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.again p{
+    color: #627382;
+    font-weight: 400;
+    font-size: 16px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #001931;
+}
+.last1{
+    width:139px;
+    height:60px;
+}
+.footer h5{
+    font-size: 20px;
+    font-weight: 500;
+}
+.social{
+    display: flex;
+    gap:4px;
+
+}
+
 
 
