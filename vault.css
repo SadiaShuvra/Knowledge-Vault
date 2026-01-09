@@ -194,10 +194,12 @@ font-size: 16px;
    align-content: center;
    justify-content: center;
    text-align:center;
+   color:#f7f6f2;
 }
 .again h3{
     font-size: 40px;
     font-weight: bold;
+    color: #000;
 }
 .again p{
     color: #627382;
@@ -205,22 +207,37 @@ font-size: 16px;
     font-size: 16px;
 }
 .footer{
+    background-color: #001931;
+    color: #FFFFFF;
+    padding: 30px 50px 15px 50px;
+    border-top:1px solid #627382;
+}
+.footer-container{
     display: flex;
     justify-content: space-between;
-    background-color: #001931;
+    align-items: center;
+    flex-wrap: wrap;
 }
-.last1{
+.footer-left{
     width:139px;
     height:60px;
 }
-.footer h5{
-    font-size: 20px;
+.footer-right p{
+    font-size:20px ;
     font-weight: 500;
 }
-.social{
+.social-icons{
     display: flex;
-    gap:4px;
-
+    gap: 8px;
+    
+}
+.social-icons a img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.footer-bottom{
+    text-align: center;
 }
 
 
