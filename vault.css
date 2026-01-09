@@ -104,8 +104,80 @@
     color: #30B868;
     background-color: #FFFFFF;
     font-weight: 500;
-    MARGIN: 10px 515px;
+    MARGIN: 20px 520px;
     display: flex;gap:2px;
     align-items: center;
     border-radius: 20px;
 }
+.main{
+    text-align: center;
+}
+.main h2{
+    font-size: 48px;
+    font-weight: bold;
+    align-content: center;
+    color:#001931;
+}
+.main p{
+    font-size: 16px;
+    font-weight: 400;
+    align-content: center;
+}
+.card{
+    margin:44px auto 48px auto;
+    display: flex;
+    justify-content: space-between;
+    gap:24px;
+}
+.one{
+    background-color:white ;
+    padding:24px;
+    box-shadow:0 4px 8px #000; 
+}
+.two {
+background-color:white ;
+    box-shadow:0 4px 8px #000; 
+    padding: 24px;
+}
+.three{
+    background-color:white ;
+    box-shadow:0 4px 8px #000; 
+    padding: 24px;
+}
+.four{
+    background-color:white ;
+    box-shadow:0 4px 8px #000;
+    padding:24 px 
+}
+.light{
+    margin:120px;
+    display:flex;gap:6px;
+}
+.yellow{
+    width:600px;height:600px;
+
+}
+.write p{
+color:#627382;
+font-weight: 400; 
+font-size: 16px;   
+}
+.write{
+    margin-top:10px ;margin-bottom: 102px;
+    
+}
+.write li{
+    list-style:none;
+}
+.write h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.extra{
+    font-size: 16px;
+    font-weight: 500;
+    color:#469165;
+
+}
+
+
